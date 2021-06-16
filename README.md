@@ -4,14 +4,23 @@ pon game
 ## mainpy
 
 from turtle import Turtle,Screen
+
 from paddle import Paddle
+
 from ball import Ball
+
 from score import Scoreboard
+
 import time
+
 screen = Screen()
+
 screen.setup(width=800,height=600)
+
 screen.bgcolor("black")
+
 screen.title("PONG")
+
 screen.tracer(0)
 
 ball = Ball()
