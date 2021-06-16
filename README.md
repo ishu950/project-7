@@ -1,6 +1,7 @@
 # project-7
 pon game
-## main.py
+
+## mainpy
 
 from turtle import Turtle,Screen
 from paddle import Paddle
